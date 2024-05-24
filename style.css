@@ -1,0 +1,133 @@
+.bagiannama {
+  background-color: rgb(255, 255, 255);
+  background-size: width=1680, height=100px;  
+  height: 300px;
+    
+}
+
+.bagiannama p {
+    color: black;
+    text-align: center;
+    font-family: "Merriweather",serif;
+    margin: 0;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+  
+  
+.textbrand {
+    font-family: "Marriweather",serif;
+}
+.bagiannama h1 {
+    color: black;
+    text-align: center;
+    font-family: "Merriweather",serif;
+    margin: 0;
+    margin-top: 110px;
+    padding: 30px;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.fotodandiri {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    background: linear-gradient(
+      to right,
+      rgb(101, 77, 38) 0%,
+      rgb(101, 77, 38) 50%,
+      rgb(139, 113, 47) 50%,
+      rgb(139, 113, 47) 100%
+    );
+  }
+
+
+.penulis {
+    width: 400px;
+}
+
+.penulis p {
+    font-family:"Merriweather",serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.penulis h1 {
+    font-family:"Merriweather",serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.kemampuan {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    height: 600px;
+}
+    
+.kemampuan .card1 img, .card2 img, .card3 img {
+    border-radius: 0px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 350px;
+}
+
+.kemampuan .card2 img {
+    height: 199px;
+}
+
+.kemampuan .card3 img {
+    height: 199px;
+}
+        
+.kemampuan h5 {
+    font-family: "Merriweather",serif;
+    text-align: center;
+    font-size: 23px;
+    margin: 20px;
+}
+
+.kemampuan p {
+    font-family: "Merriweather",serif;
+    text-align: justify;
+    font-size: 15px;
+    margin: 30px;
+}
+        
+.kemampuan1 {
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+}
